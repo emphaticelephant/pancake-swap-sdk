@@ -81,5 +81,13 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB',
     'https://www.binance.org'
+  ),
+  [ChainId.BASE_MAINNET]: new Token(
+    ChainId.BASE_MAINNET,
+    '0x420000000000000000000000000000000000000F',
+    18,
+    'WETH',
+    'Wrapped Ether',
+    'https://www.base.org'
   )
 }
